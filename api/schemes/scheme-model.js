@@ -24,7 +24,7 @@ function findSteps(id) {
       'steps.id',
       'schemes.scheme_name',
       'steps.step_number',
-      'steps.instruction'
+      'steps.instructions'
     )
     .where('schemes.id', id);
 }
